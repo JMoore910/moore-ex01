@@ -3,7 +3,7 @@ import java.util.Scanner;
  *     UCF   COP3330  Fall 2021 Assignment 1 Solution01
  *     Copyright 2021 Sean Moore
  */
-public class solution01 {
+public class Solution01 {
     /*
     Create a Java Application that
      prompts the user for their name
