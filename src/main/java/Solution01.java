@@ -14,17 +14,16 @@ public class Solution01 {
     //Challenge: Use no variables
     public static void main(String[] args)
     {
+        //  Scanner for input
+        
         Scanner input = new Scanner(System.in);
+        
+        //  Ask for name from user
         System.out.printf("What is your name? ");
+        
+        //  Take name as input and print it in a string concatenation
         String str;
         str = input.nextLine();
-        System.out.println("Hello, ");
-        System.out.println(str);
-        System.out.println(", nice to meet you!");
-
-
-        //Challenge 1 print Statement
-        //replace 3 System outputs with this single line
-        // System.out.println("Hello, " + input.nextLine() + ", nice to meet you!");
+        System.out.println("Hello, " + str + ", nice to meet you!");
     }
 }
